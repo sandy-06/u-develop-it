@@ -1,7 +1,7 @@
 const db = require('./db/connection');
-const exp = require('constants');
+
 const express = require('express');
-const inputCheck = require('./utils/inputCheck');
+
 const apiRoutes = require('./routes/apiRoutes');
 
 const PORT = process.env.PORT || 3001;
